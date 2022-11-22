@@ -109,7 +109,7 @@ function setPic(image){
                       <option value="Pants">Pants</option>
                       <option value="Shorts">Shorts</option>
                       <option value="Shoes">Shoes</option>
-                      <option value="Bags">Bags</option>
+                      <option value="Bags&Wallets">Bags & Wallets</option>
                       <option value="Belts">Belts</option>
                       <option value="Hats&Scarves">Hats & Scarves</option>
                     </select>
@@ -120,7 +120,6 @@ function setPic(image){
                       <option value="Summer">Summer</option>
                       <option value="Winter">Winter</option>
                       <option value="Accessories">Accessories</option>
-                      <option value="Sale">Sale</option>
                    </select>
               </div>
               <div>
@@ -161,10 +160,8 @@ function setPic(image){
                       <option value="black">black</option>
                       <option value="red">red</option>
                       <option value="blue">blue</option>
-
                       <option value="green">green</option>
                       <option value="grey">grey</option>
-
                       <option value="yellow">yellow</option>
                       <option value="olive green">olive green</option>
                       <option value="maroon">maroon</option>
@@ -185,7 +182,7 @@ function setPic(image){
                   <label>Available sizes</label>
                   <div>
                     <select ref={prodSizes}>
-                      <option value="XS">Select Type</option>
+                      <option value="0">Select Type</option>
                       <option value="XS">XS</option>
                       <option value="S">S</option>
                       <option value="M">M</option>
@@ -193,6 +190,7 @@ function setPic(image){
                       <option value="XL">XL</option>
                       <option value="XXL">XXL</option>
                       <option value="XXXL">XXXL</option>
+                      <option value="One-size">One-size</option>
                    </select>
                  </div>
               </div>
